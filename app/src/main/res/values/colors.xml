@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transpenrent_black">#B3000000</color>
+
+    <color name="omdb_background">#f5ab35</color>
+    <color name="omdb_light">#f7bc5d</color>
+    <color name="omdb_grey">#959595</color>
+</resources>

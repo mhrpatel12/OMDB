@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/omdb_background"
+    android:orientation="vertical"
+    tools:context="com.ignitesolutions.omdb.SearchActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="35dp"
+        android:src="@drawable/omdb_logo"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/omdb_light"
+        android:padding="15dp"
+        android:text="@string/title_search"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/btnSearchTitle"
+        android:layout_width="@dimen/width_searchView"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_searchView"
+        android:background="@drawable/custom_background"
+        android:queryHint="@string/hint_search"
+        android:searchIcon="@drawable/search_icon"
+        app:defaultQueryHint="@string/hint_search"></android.support.v7.widget.SearchView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="@string/title_omdb"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
